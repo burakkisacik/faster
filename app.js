@@ -34,7 +34,7 @@ prompt([
         type: 'input',
         name: 'projectPath',
         message: 'Okay boss, can you specify a location for your project?',
-        default: '/home/burak/Desktop',
+        default: process.cwd(),
       },
       {
         type: 'input',
@@ -56,7 +56,7 @@ prompt([
         type: 'input',
         name: 'projectPath',
         message: 'Okay boss, can you specify a location for your project?',
-        default: '/home/burak/Desktop',
+        default: process.cwd(),
       },
       {
         type: 'input',
